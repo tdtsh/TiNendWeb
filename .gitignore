@@ -1,0 +1,22 @@
+._*
+.DS_Store
+documentation/nend
+cp_zip.sh
+
+.DS_Store
+build.log
+build
+npm-debug.log
+tmp
+.map
+
+# svn & cvs
+.svn
+CVS
+
+lost+found
+*.swp
+*.class
+
+.settings
+.fastdev.lock

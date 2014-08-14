@@ -1,0 +1,16 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0
+apiversion: 2
+description: TiNendWeb
+author: tadatoshi_hanazaki
+license: Specify your license
+copyright: Copyright (c) 2014 by tadatoshi_hanazaki
+
+# these should not be edited
+name: TiNendWeb
+moduleid: com.tdtsh.TiNendWeb
+guid: 78bee4d4-c82f-4281-aafb-af39c7f271ac
+platforms: android
