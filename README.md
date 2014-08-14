@@ -1,7 +1,7 @@
 TiNendWeb Module
 ================
 
-This module made for when use nend web script on  Android 2.3.
+Titanium Android module for use nend web script on  Android 2.3.
 
-Simple extend WebView to catch to 'market://detail' beforeload event.
+Simple extended WebView to catch event beforeload 'market://detail' for Google Play.
 
