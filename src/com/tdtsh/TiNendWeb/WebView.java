@@ -29,13 +29,14 @@ public class WebView extends TiUIWebView
 		settings.setJavaScriptCanOpenWindowsAutomatically(false);
 
         mWebViewNendAd.setWebViewClient(new TiWebViewClient(this, mWebViewNendAd) {
+			/*
 			@Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
-				Log.d(LCAT, "shouldOverrideUrlLoading url: " + url);
 				Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
 				view.getProxy().getActivity().startActivity(intent);
 				return true;
             }
+			*/
         });
 		setNativeView(mWebViewNendAd);
 	}

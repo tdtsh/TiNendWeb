@@ -7,9 +7,8 @@ Description
 TiNendWeb module extends the Appcelerator Titanium Mobile's WebView.
 To catch event beforeload 'market://detail' throwen by Nend SDK for Google Play.
 
-Titanium Android module for use nend web script on Android 2.3.
-
-
+WebView内でGoogle Playへのリンクのクリックを検知するために作ったWebViewの薄いラッパーです。
+Titanium + Android 2.3系で NendのSDKによる広告表示ができず、仕方なくWebviewで表示させようとした時に使いましたが、Nend以外の目的でも使えます。
 
 Get the module
 --------------
